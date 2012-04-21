@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << File.join(File.dirname(File.dirname(__FILE__)),'lib')
+
+require 'crucigrama/cli'
+require 'crucigrama/cli/generate'
+require 'crucigrama/cli/print'
+
+Crucigrama::CLI.cli_command = "crucigrama"
+
+Crucigrama::CLI.run *ARGV

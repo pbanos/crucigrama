@@ -1,0 +1,5 @@
+require 'crucigrama/version'
+require 'crucigrama/positionable'
+require 'crucigrama/crossword'
+require 'crucigrama/crossword_builder'
+require 'crucigrama/grill_builder'
