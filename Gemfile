@@ -2,8 +2,8 @@ source "http://rubygems.org"
 # Add dependencies required to use your gem here.
 # Example:
 
-gem "activesupport", "~> 3.1.0"
-gem "multi_json", "~> 1.0.3"
+gem "activesupport", "~> 3.1"
+gem "multi_json", "~> 1.0"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
